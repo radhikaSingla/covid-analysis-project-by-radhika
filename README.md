@@ -35,7 +35,7 @@ To analyze global COVID-19 trends and identify patterns in case growth, fatality
 ##  🔹 Sample Visualization
 
 ![COVID Analysis](covid.jpeg) 
-![model](covid 2.jpeg) 
+![model](model.jpeg) 
 
 
 ## 🔹 Conclusion
