@@ -1,41 +1,40 @@
-# COVID-19 Data Analysis Project
-This project analyzes the global spread and impact of COVID-19 using Python, Pandas, and Matplotlib. It explores country-wise trends, compares India with US, calculates fatality rates, and visualizes the top 10 most affected countries.
-# Objectives 
-- Load and explore a real-world COVID-19 dataset  
-- Clean and preprocess the data  
-- Compare the pandemic trends in India and the United States  
-- Calculate fatality rates across countries  
-- Visualize insights using line and bar charts  
-# Dataset 
-- Source: [Our World in Data](https://ourworldindata.org/coronavirus)  
-- Format: CSV file  
-- Features used: `location`, `date`, `total_cases`, `total_deaths`, `population`  
-# Tools Used 
-- Python  
-- Pandas  
-- Matplotlib  
-- Google Colab  
-# Visualizations 
-- Line Chart: India vs US: Total COVID-19 Cases Over Time  
-- Bar Chart: Top 10 Countries by Fatality Rate  
-- Additional insights based on filtered and cleaned data  
-# Data Cleaning Steps 
-- Handled missing (`NaN`) values in key columns  
-- Filtered dataset for selected countries  
-- Created new column: `fatality_rate = (total_deaths / total_cases) * 100`  
-- Fixed an issue where a graph was showing blank due to `NaN` values : handled missing data to correct the visualization  
-# Key Insights 
-- Initially, one of the graphs appeared blank — this was caused by missing values (`NaN`) in the dataset. After cleaning the data properly, the graph displayed correctly  
-- The US had a higher case count than India, but trends followed similar waves  
-- Some smaller countries had significantly higher fatality rates  
-- Data visualization helps to highlight severe impact zones globally  
-# How to Run 
-1. Download the `.ipynb` or  `.py` notebook  
-2. Open it in Google Colab or Jupyter Notebook  
-3. Make sure the required CSV file is in the same directory or update the file path  
-4. Run the notebook cells one by one to see the analysis and graphs  
-# Project Status 
-- Completed – Beginner-level data analysis project  
-- Future Work – Planning to add Power BI dashboard or interactive maps  
-# Contact 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/radhika-singla-864610328/) or message me for collaboration.
+# 📊 COVID-19 Data Analysis
+
+## 🔹 Objective
+To analyze global COVID-19 trends and identify patterns in case growth, fatality rates, and country-wise impact using data analysis techniques.
+
+## 🔹 Tools Used
+- Python (Pandas, Matplotlib)
+- Google Colab
+
+## 🔹 Dataset
+- Source: https://ourworldindata.org/coronavirus  
+- Features used: location, date, total_cases, total_deaths, population  
+
+## 🔹 Data Preparation
+- Handled missing values in key columns
+- Filtered relevant country-level data
+- Created new metric: fatality_rate = (total_deaths / total_cases) * 100
+- Ensured clean data for accurate visualization
+
+## 🔹 Analysis Performed
+- Country-wise COVID-19 trend analysis  
+- Comparative analysis between India and the United States  
+- Identification of top countries by fatality rate  
+
+## 🔹 Key Insights
+- The United States consistently recorded higher total cases compared to India, though both countries followed similar wave patterns  
+- Certain countries exhibited disproportionately high fatality rates, indicating possible healthcare limitations or underreporting of cases  
+- Data inconsistencies (missing values) initially impacted visualizations, highlighting the importance of proper data cleaning  
+- Trend analysis revealed multiple peaks, corresponding to different waves of the pandemic  
+
+## 🔹 Visualizations
+- Line Chart: COVID-19 case trends (India vs US)  
+- Bar Chart: Top 10 countries by fatality rate  
+
+## 🔹 Conclusion
+This project demonstrates how data analysis can be used to uncover trends, compare regions, and highlight critical global patterns. It emphasizes the importance of clean data and effective visualization in understanding real-world events.
+
+## 🔹 Future Scope
+- Add interactive dashboard (Tableau / Power BI)
+- Perform predictive analysis on case trends
