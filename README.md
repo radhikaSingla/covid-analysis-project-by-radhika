@@ -37,6 +37,7 @@ To analyze global COVID-19 trends and identify patterns in case growth, fatality
 ![COVID Analysis](covid.jpeg) 
 ![model](model.jpeg) 
 
+## 📌 Key Skills: Pandas, Data Cleaning, Data Visualization, Time Series Analysis
 
 ## 🔹 Conclusion
 This project demonstrates how data analysis can be used to uncover trends, compare regions, and highlight critical global patterns. It emphasizes the importance of clean data and effective visualization in understanding real-world events.
