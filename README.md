@@ -30,7 +30,13 @@ To analyze global COVID-19 trends and identify patterns in case growth, fatality
 
 ## 🔹 Visualizations
 - Line Chart: COVID-19 case trends (India vs US)  
-- Bar Chart: Top 10 countries by fatality rate  
+- Bar Chart: Top 10 countries by fatality rate
+
+##  🔹 Sample Visualization
+
+![COVID Analysis](covid.jpeg) 
+![model](covid 2.jpeg) 
+
 
 ## 🔹 Conclusion
 This project demonstrates how data analysis can be used to uncover trends, compare regions, and highlight critical global patterns. It emphasizes the importance of clean data and effective visualization in understanding real-world events.
